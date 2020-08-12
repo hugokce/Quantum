@@ -1,6 +1,6 @@
 # This uses the latest Docker image built from the samples repository,
 # defined by the Dockerfile in Build/images/samples.
-FROM mcr.microsoft.com/quantum/samples:latest
+FROM mcr.microsoft.com/quantum/samples:615d9efeec0a2626304fb10f6bc49a058a931808
 
 # Mark that this Dockerfile is used with the samples repository.
 ENV IQSHARP_HOSTING_ENV=SAMPLES_HOSTED
